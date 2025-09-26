@@ -1,5 +1,4 @@
 import { Button } from '@/components/ui/button';
-import heroBackground from '@/assets/hero-background.jpg';
 
 const HeroSection = () => {
   const scrollToSection = (sectionId: string) => {
@@ -11,13 +10,19 @@ const HeroSection = () => {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Video Background (using image as fallback) */}
+      {/* Video Background */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src={heroBackground}
-          alt="Sustainable agricultural landscape"
+        <video 
+          autoPlay 
+          muted 
+          loop 
+          playsInline
           className="w-full h-full object-cover"
-        />
+        >
+          <source src="https://cdn.pixabay.com/vimeo/485263880/agriculture-62921.mp4?width=1280&hash=e4f0c82067b28dd18d8fb70a1e9eaf86b7a8c6a3" type="video/mp4" />
+          <source src="https://cdn.pixabay.com/vimeo/485263880/agriculture-62921.webm?width=1280&hash=1e38b10b6b7e65b34b5b6c8b4b4b1a0a0f0e0e0e" type="video/webm" />
+          Your browser does not support the video tag.
+        </video>
         <div className="absolute inset-0 video-overlay"></div>
       </div>
 
