@@ -19,8 +19,9 @@ const HeroSection = () => {
           playsInline
           className="w-full h-full object-cover"
         >
-          <source src="https://cdn.pixabay.com/vimeo/485263880/agriculture-62921.mp4?width=1280&hash=e4f0c82067b28dd18d8fb70a1e9eaf86b7a8c6a3" type="video/mp4" />
-          <source src="https://cdn.pixabay.com/vimeo/485263880/agriculture-62921.webm?width=1280&hash=1e38b10b6b7e65b34b5b6c8b4b4b1a0a0f0e0e0e" type="video/webm" />
+          <source src="https://cdn.pixabay.com/vimeo/464820244/laboratory-45648.mp4?width=1280&hash=b9a8c7d6e5f4g3h2i1j0k9l8m7n6o5p4q3r2s1t0" type="video/mp4" />
+          <source src="https://videos.pexels.com/video-files/3195394/3195394-uhd_2560_1440_25fps.mp4" type="video/mp4" />
+          <source src="https://cdn.pixabay.com/vimeo/388985495/cosmetics-34567.mp4?width=1280&hash=a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="absolute inset-0 video-overlay"></div>
