@@ -49,10 +49,9 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-primary-foreground/80">
-              <li>partnerships@biobeauty.com</li>
-              <li>linkedin.com/company/biobeauty</li>
-              <li><a href="#contact" className="hover:text-primary-foreground transition-colors">Get in Touch</a></li>
-              <li><a href="#" className="hover:text-primary-foreground transition-colors">Request Samples</a></li>
+              <li>info@girlified.com.ng</li>
+              {/* <li><a href="#contact" className="hover:text-primary-foreground transition-colors">Get in Touch</a></li>
+              <li><a href="#" className="hover:text-primary-foreground transition-colors">Request Samples</a></li> */}
             </ul>
           </div>
         </div>
