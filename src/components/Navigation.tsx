@@ -31,7 +31,8 @@ const Navigation = () => {
 			<div className='container-max'>
 				<div className='flex items-center justify-between h-16 lg:h-20'>
 					<div className='text-2xl font-bold gradient-text'>
-						BioBeauty
+						{/* BioBeauty */}
+						GreenSurf
 					</div>
 
 					<div className='hidden md:flex items-center space-x-8'>

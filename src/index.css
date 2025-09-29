@@ -182,6 +182,7 @@ All colors MUST be HSL for consistent theming across light/dark modes.
 
 	/* Video overlay */
 	.video-overlay {
+		/* background: var(); */
 		background: var(--gradient-hero);
 	}
 

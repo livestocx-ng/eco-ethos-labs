@@ -1,4 +1,5 @@
 import {Button} from '@/components/ui/button';
+import heroVideo from '@/assets/video/hero.mp4';
 
 const HeroSection = () => {
 	const scrollToSection = (sectionId: string) => {
@@ -19,30 +20,8 @@ const HeroSection = () => {
 					playsInline
 					className='w-full h-full object-cover'
 				>
-					<source
-						src='https://cdn.pixabay.com/video/2020/07/15/44777-440000828_large.mp4'
-						type='video/mp4'
-					/>
-					<source
-						src='https://cdn.pixabay.com/video/2020/07/15/44777-440000828_large.mp4'
-						type='video/mp4'
-					/>
-					<source
-						src='https://cdn.pixabay.com/video/2020/07/15/44777-440000828_large.mp4'
-						type='video/mp4'
-					/>
-					{/* <source
-						src='https://media.istockphoto.com/id/1198695632/de/video/kreisf%C3%B6rmige-goldene-geometrische-formen-im-wasser.mp4?s=mp4-640x640-is&k=20&c=pla3kPPz8XvV2sxzOJKhPSSWyyxm7fxEF6dvHpM1n3A='
-						type='video/mp4'
-					/>
-					<source
-						src='https://media.istockphoto.com/id/1198695632/de/video/kreisf%C3%B6rmige-goldene-geometrische-formen-im-wasser.mp4?s=mp4-640x640-is&k=20&c=pla3kPPz8XvV2sxzOJKhPSSWyyxm7fxEF6dvHpM1n3A='
-						type='video/mp4'
-					/>
-					<source
-						src='https://media.istockphoto.com/id/1198695632/de/video/kreisf%C3%B6rmige-goldene-geometrische-formen-im-wasser.mp4?s=mp4-640x640-is&k=20&c=pla3kPPz8XvV2sxzOJKhPSSWyyxm7fxEF6dvHpM1n3A='
-						type='video/mp4'
-					/> */}
+					<source src={heroVideo} type='video/mp4' />
+					
 					Your browser does not support the video tag.
 				</video>
 				<div className='absolute inset-0 video-overlay'></div>
