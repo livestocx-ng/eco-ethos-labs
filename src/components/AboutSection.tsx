@@ -1,4 +1,4 @@
-import ecoProducts from '@/assets/eco-products.jpg';
+import ecoProducts from '@/assets/eco-products.jpeg';
 
 const AboutSection = () => {
   return (
