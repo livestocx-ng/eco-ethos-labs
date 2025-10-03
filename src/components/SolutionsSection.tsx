@@ -1,3 +1,4 @@
+import ProductMockup from '@/assets/mockup.png';
 import labEquipment from '@/assets/lab-equipment.jpg';
 import { Card } from '@/components/ui/card';
 
@@ -22,7 +23,7 @@ const SolutionsSection = () => {
         {/* Lab Image */}
         <div className="mb-16">
           <img 
-            src={labEquipment}
+            src={ProductMockup}
             alt="Professional bio-based cosmetics laboratory"
             className="w-full h-[400px] lg:h-[500px] object-cover rounded-2xl shadow-eco"
           />

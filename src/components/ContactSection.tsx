@@ -170,7 +170,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <div className="font-medium">Email</div>
-                    <div className="text-muted-foreground">partnerships@biobeauty.com</div>
+                    <div className="text-muted-foreground">info@girlified.com.ng</div>
                   </div>
                 </div>
 
@@ -182,7 +182,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <div className="font-medium">LinkedIn</div>
-                    <div className="text-muted-foreground">linkedin.com/company/biobeauty</div>
+                    <div className="text-muted-foreground">www.linkedin.com/company/girlified</div>
                   </div>
                 </div>
               </div>
