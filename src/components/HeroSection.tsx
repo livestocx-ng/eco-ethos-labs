@@ -21,7 +21,6 @@ const HeroSection = () => {
 					className='w-full h-full object-cover'
 				>
 					<source src={heroVideo} type='video/mp4' />
-					
 					Your browser does not support the video tag.
 				</video>
 				<div className='absolute inset-0 video-overlay'></div>
@@ -31,9 +30,9 @@ const HeroSection = () => {
 			<div className='relative z-10 container-max text-center text-white'>
 				<div className='max-w-4xl mx-auto animate-fade-in'>
 					<h1 className='text-5xl lg:text-7xl font-bold mt-20 leading-tight'>
-						Revolutionizing Beauty with
+						Low-Energy Green Chemistry for the
 						<span className='block bg-gradient-to-r from-green-300 to-green-100 bg-clip-text text-transparent'>
-							Sustainable Ingredients
+						Beauty and Textile Industries
 						</span>
 					</h1>
 
