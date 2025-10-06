@@ -30,8 +30,7 @@ const AboutSection = () => {
             
             <p className="text-lg text-muted-foreground leading-relaxed">
               We're changing that with next-generation bio-based ingredients that are biodegradable, 
-              toxin-free, high-performing, and aligned with major industry goals like L'Oréal's 
-              "Green Sciences" 2030 initiatives.
+              toxin-free, high-performing, and aligned with major industry goals.
             </p>
 
             {/* Mission Alignment */}
